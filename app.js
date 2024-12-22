@@ -29,8 +29,8 @@ function fromYenToPound (yenValue) {
     return poundValue
 }
 
-console.log(fromDollarToYen(10));
-console.log(fromEuroToDollar(10));
-console.log(fromYenToPound(1000));
+console.log(fromDollarToYen(1));
+console.log(fromEuroToDollar(3.5));
+console.log(fromYenToPound(10));
 
 module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYenToPound };
